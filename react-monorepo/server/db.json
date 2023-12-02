@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "firstName": "Admin",
+      "lastName": "Lib",
+      "email": "admin@gmail.com",
+      "password": "12345678",
+      "phone": "0123456789",
+      "role": "admin",
+      "hireRequests": 3,
+      "id": 1
+    },
+    {
+      "firstName": "Nguyễn",
+      "lastName": "Thành",
+      "email": "mongthanh.220902@gmail.com",
+      "password": "12345678",
+      "phone": "0762746764",
+      "role": "member",
+      "hireRequests": 4,
+      "id": 2
+    },
+    {
+      "firstName": "Duyên",
+      "lastName": "Trần",
+      "email": "duyen321@gmail.com",
+      "password": "duyen123",
+      "phone": "0935805300",
+      "role": "member",
+      "hireRequests": 4,
+      "id": 3
+    },
+    {
+      "firstName": "Hiền",
+      "lastName": "Huỳnh",
+      "email": "hien@gmail.com",
+      "password": "hien1234",
+      "phone": "0762746764",
+      "role": "member",
+      "hireRequests": 4,
+      "id": 4
+    }
+  ],
+  "books": [
+    {
+      "name": "Ngọc Khoa",
+      "author": "Khoa Nội",
+      "description": "Có 3 năm kinh nghiệm với chuyên khoa Nội",
+      "publish_date": "1996-03-07",
+      "quantity": 3,
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=1200:*",
+      "id": 1
+    },
+    {
+      "name": "Quốc Việt",
+      "author": "Khoa Ngoại",
+      "description": "Có 5 năm kinh nghiệm với chuyên khoa Ngoại",
+      "publish_date": "1985-06-05",
+      "quantity": 5,
+      "cover": "data:image/jpeg;base64,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",
+      "id": 2
+    },
+    {
+      "name": "Mộng Thành",
+      "author": "Khoa Truyền nhiễm",
+      "description": "Có 2 năm kinh nghiệm với Khoa Truyền nhiễm",
+      "publish_date": "1993-10-20",
+      "quantity": 1,
+      "cover": "https://www.shutterstock.com/image-photo/profile-photo-attractive-family-doc-600nw-1724693776.jpg",
+      "id": 3
+    },
+    {
+      "name": "Khánh Duyên",
+      "author": "Khoa Tai-Mũi-Họng",
+      "description": "Có 3 năm kinh nghiệm với Khoa Tai-Mũi-Họng",
+      "publish_date": "1994-11-24",
+      "quantity": 2,
+      "cover": "https://www.prepareforcanada.com/wp-content/uploads/1-FeaturedImg.jpg",
+      "id": 4
+    },
+    {
+      "name": "Minh Hiền",
+      "author": "Khoa Ngoại",
+      "description": "Có 4 năm kinh nghiệm với Khoa Ngoại",
+      "publish_date": "1999-06-23",
+      "quantity": 4,
+      "cover": "https://bazaarvietnam.vn/wp-content/uploads/2023/05/Harpers-Bazaar-Uhm-Jung-Hwa-phim-Doctor-Cha_06.jpeg",
+      "id": 5
+    },
+    {
+      "name": "Bảo Trâm",
+      "author": "Khoa Truyền nhiễm",
+      "description": "Có 1 năm kinh nghiệm với Khoa Truyền nhiễm",
+      "publish_date": "1999-07-08",
+      "quantity": 0,
+      "cover": "https://i.guim.co.uk/img/media/4ae6d1de2cb11b37f9d202a3f1ce310e05f218a2/0_114_5123_3075/master/5123.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=f42974a5bb6d0cd27fefef0565440cad",
+      "id": 6
+    },
+    {
+      "name": "Kim Diệu",
+      "author": "Khoa Nội",
+      "description": "Có 3 năm kinh nghiệm với Khoa Nội",
+      "publish_date": "1989-10-11",
+      "quantity": 3,
+      "cover": "https://img.freepik.com/free-photo/beautiful-young-female-doctor-looking-camera-office_1301-7807.jpg?size=626&ext=jpg&ga=GA1.1.34264412.1699660800&semt=ais",
+      "id": 7
+    }
+  ],
+  "hire-requests": [
+    {
+      "bookId": 3,
+      "userId": 4,
+      "borrow_date": "12-02-2023 15:52:01",
+      "id": 1
+    },
+    {
+      "bookId": 4,
+      "userId": 2,
+      "borrow_date": "12-02-2023 15:52:34",
+      "id": 2
+    },
+    {
+      "bookId": 6,
+      "userId": 3,
+      "borrow_date": "12-02-2023 15:52:53",
+      "id": 3
+    }
+  ]
+}
