@@ -1,19 +1,13 @@
-# HEALTHY-WEB
+# HEALTHY-WEB 
 
-## Design
-
-[Design Template](https://www.libib.com/)
-
-## Topic name
-
-Management Library System Web App
+## SUBJECT: Phân tích thiết kế hướng đối tượng
 
 ## Team size
 
-- 3 developer 
--- Trần Lê Khánh Duyên
--- Nguyễn Thị Mộng Thành
--- Huỳnh Thị Minh Hiền
+- 3 developer - 20CNTT3
+  - Trần Lê Khánh Duyên
+  - Nguyễn Thị Mộng Thành
+  - Huỳnh Thị Minh Hiền
 
 ## Technical
 
@@ -33,13 +27,13 @@ Management Library System Web App
 
 ## Features
 
-- Build an admin dashboard page to manage the list of books, members, and hire requests
-- Admin can add/edit/remove the books
-- Admin can add/edit/complete the hire requests
-- Each member can hire up to five books and send up to five book hire requests
-- Each book can only be rented for a maximum of 10 days from the date of rental start
-- Highlight the hire book requests that are overdue
-- Admins can complete hire book requests from the user. When the hire request is marked as completed, the hired book quantity for the user will be +1
+- Build an admin dashboard page to manage the list of doctors, members, and book requests
+- Admin can add/edit/remove the doctors
+- Admin can add/edit/complete the book requests
+- Each member can book up to five doctors and send up to five doctor book requests
+- Each doctor can only be rented for a maximum of 10 days from the date of rental start
+- Highlight the book doctor requests that are overdue
+- Admins can complete book doctor requests from the user. When the book request is marked as completed, the booked doctor quantity for the user will be +1
 - The delete action requires confirmation
 - Validate each form controls
 
@@ -65,41 +59,51 @@ Management Library System Web App
   ├──tsconfig.base.json       # Sets up the global TypeScript settings and creates aliases
   └──README.md
 ```
-## Install and Run
+
+## Install and Run Application
 
 Open Windows PowerShell or cmd or [Windows Terminal](https://www.microsoft.com/en-gb/p/windows-terminal/9n0dx20hk701?rtc=1&activetab=pivot:overviewtab)
 
-**_Step 1:_** Clone develop branch
+**Step 1:** Clone develop branch
 
 ```bash
 git clone --single-branch --branch develop git@github.com:mthanh2209/healthy-web.git
 ```
 
-**_Step 2:_** Move to _react-monorepo_ folder
+**Step 2:** Move to react-monorepo folder
 
 ```bash
 cd react-monorepo
 ```
 
-**_Step 3:_** Install project
+**Step 3:** Install pnpm
+
+```bash
+npm install -g pnpm
+```
+
+**Step 4:** Install project
 
 ```bash
 pnpm install
 ```
 
-**_Step 4:_** Run json-server
-
-```bash
-pnpm run server
-```
-
-**_Step 5:_** Run project in dev mode
+**Step 5:** Run project in dev mode
 
 ```bash
 pnpm start
 ```
 
-**_Note:_**
-_All the request make in these pages are fake, the real DB is persist_
+## Run Server
 
-_If want to run locally using **.env.example** file create **.env** file then put them in the **root** folder of each applications_
+**Step 1:** Create a new terminal, then move to react-monorepo folder
+
+```bash
+cd react-monorepo
+```
+
+**Step 2:** Run json-server
+
+```bash
+pnpm run server
+```
