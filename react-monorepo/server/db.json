@@ -97,13 +97,22 @@
       "id": 6
     },
     {
+      "name": "Kim Trung",
+      "author": "Khoa Truyền nhiễm",
+      "description": "Có 1 năm kinh nghiệm với Khoa Truyền nhiễm",
+      "publish_date": "1999-07-08",
+      "quantity": 0,
+      "cover": "https://i.guim.co.uk/img/media/4ae6d1de2cb11b37f9d202a3f1ce310e05f218a2/0_114_5123_3075/master/5123.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=f42974a5bb6d0cd27fefef0565440cad",
+      "id": 7
+    },
+    {
       "name": "Kim Diệu",
       "author": "Khoa Nội",
       "description": "Có 3 năm kinh nghiệm với Khoa Nội",
       "publish_date": "1989-10-11",
       "quantity": 3,
       "cover": "https://img.freepik.com/free-photo/beautiful-young-female-doctor-looking-camera-office_1301-7807.jpg?size=626&ext=jpg&ga=GA1.1.34264412.1699660800&semt=ais",
-      "id": 7
+      "id": 8
     }
   ],
   "hire-requests": [
